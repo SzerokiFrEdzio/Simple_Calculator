@@ -1,4 +1,5 @@
 #Create the functions
+
 def Addition(x, y):
     return x + y
 
@@ -12,7 +13,7 @@ def Multiplication(x, y):
 
 def Division(x, y):
     try:
-        return x / y
+        return round(x / y)
     except ZeroDivisionError:
         return 'nie dziel przez zero'
 
